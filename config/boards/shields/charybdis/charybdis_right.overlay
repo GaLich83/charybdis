@@ -16,9 +16,11 @@
 		, <&gpio1 4  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
 		;
 };
-&left_encoder {
+
+&right_encoder {
     status = "okay";
 };
+
 // trackball bus
 &pinctrl {
     spi0_default: spi0_default {
