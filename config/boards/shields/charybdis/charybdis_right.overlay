@@ -17,10 +17,6 @@
 		;
 };
 
-&right_encoder {
-    status = "okay";
-};
-
 // trackball bus
 &pinctrl {
     spi0_default: spi0_default {
